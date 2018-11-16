@@ -1,0 +1,8 @@
+﻿  NS_Task_1_Sandbox.cpp
+d:\eyantra\2018\task 1\ns_project\ns_task_1_project\ns_task_1\ns_task_1_sandbox.cpp(83): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\eyantra\2018\task 1\ns_project\ns_task_1_project\ns_task_1\ns_task_1_sandbox.cpp(107): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\eyantra\2018\task 1\ns_project\ns_task_1_project\ns_task_1\ns_task_1_sandbox.cpp(108): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\eyantra\2018\task 1\ns_project\ns_task_1_project\ns_task_1\ns_task_1_sandbox.cpp(163): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+d:\eyantra\2018\task 1\ns_project\ns_task_1_project\ns_task_1\ns_task_1_sandbox.cpp(192): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+d:\eyantra\2018\task 1\ns_project\ns_task_1_project\ns_task_1\ns_task_1_sandbox.cpp(70): warning C4715: 'nodedetect': not all control paths return a value
+  NS_Task_1.vcxproj -> D:\eyantra\2018\Task 1\NS_Project\NS_Task_1_Project\Debug\NS_Task_1.exe
