@@ -11,7 +11,7 @@
 using namespace std;
 int forwardtime = 350, turntime = 300, lsensor, msensor, rsensor, psensor;
 int initial_motor_speed = 200;
-float Kp = 110, Ki = 0, Kd = 0;
+float Kp = 60, Ki = 0, Kd = 0;
 float error = 0, P = 0, I = 0, D = 0, PID_value = 0;
 float previous_error = 0, previous_I = 0;
 int node = 0;
@@ -264,36 +264,11 @@ void Task_1_1(void)
 	forward_wls();
 	left_turn_wls();
 	forward_wls();
-	right_turn_wls();
-	//left_turn_wls();
+	left_turn_wls();
+	forward_wls();
 	forward_wls();
 	right_turn_wls();
 	forward_wls();
-	right_turn_wls();
-	forward_wls();
-	right_turn_wls();
-	forward_wls();
-	//stop();
-	/*right();
-	_delay_ms(10);*/
-	right();
-	forward();
-	_delay_ms(1);
-	/*char c;
-	do {
-		cin >> c;
-		if (c == 'y')
-		{
-			int l, f, d;
-			cin >> l >> f >> d;
-			velocity(l, f);
-			_delay_ms(d);
-		}
-		else
-		{
-			break;
-		}
-	} while (c == 'y');*/
 	stop();
 	system("pause");
 
